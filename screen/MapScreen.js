@@ -4,11 +4,15 @@ import React from 'react'
 const MapScreen = () => {
     return (
         <View>
-            <Text>MapScreen</Text>
+            <Text style={styles.text}>MapScreen</Text>
         </View>
     )
 }
 
 export default MapScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    text: {
+        flex: 1
+    }
+})

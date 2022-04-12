@@ -7,7 +7,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import tw from 'tailwind-react-native-classnames'
-import MapScreen from './components/MapScreen';
+import MapScreen from './screen/MapScreen';
 
 
 export default function App() {
